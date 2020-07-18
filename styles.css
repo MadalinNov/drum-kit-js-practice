@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #204051;
+}
+#title{
+  text-shadow: 5px 2px 0px #ff5f40;
+  color: lightgrey;
+  font-family: "Noto Serif";
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 100px;
+}
+.set{
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+button{
+
+  font-size: 6rem;
+  color: #AD3857;
+  border: 10px solid rgb(57, 93, 111);
+  border-radius: 10%;
+  margin: 0 10px;
+  height: 200px;
+  width: 200px;
+}
+footer{
+  color: lightgrey;
+  font-size: 1.5rem;
+  font-family: "Noto Serif";
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+/* image asignment*/
+.w{
+  background: url("images/violin.jpg");
+}
+.a{
+background: url("images/violin2.jpg");
+}
+.s{
+background: url("images/tom3.png");
+}
+.d{
+background: url("images/tom4.png");
+}
+.j{
+background: url("images/snare.png");
+}
+.k{
+background: url("images/snap.jpg");
+}
+.l{
+background: url("images/kick.png");
+}
+.pressed{
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
